@@ -8,6 +8,6 @@ The character model for the player was created by TalkingDrums and sourced from 
 
 I'll try and add examples of each of the powers as they are added. Below is the Cryonis power that I am currently working on. It only works on water and only stays there for a limited amount of time.
  
-![Demo](Demo/BOTW_ice.gif)
+![Demo](Demo/BOTW_Ice.gif)
 
 Next I think will be Magnesis, so watch this space.
