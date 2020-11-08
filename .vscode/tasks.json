@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "BOTWMechanics Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"Debug",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"Debug",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanics Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"Debug",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"DebugGame",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"DebugGame",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanics Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"DebugGame",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"Development",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"Development",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanics Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"Development",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"Shipping",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"Shipping",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanics Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"Shipping",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"Test",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"Test",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanics Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"Mac",
+				"Test",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"Debug",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"Debug",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanics IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"Debug",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"DebugGame",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"DebugGame",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanics IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"DebugGame",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"Development",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"Development",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanics IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"Development",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"Shipping",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"Shipping",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanics IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"Shipping",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"Test",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"Test",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanics IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanics IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanics",
+				"IOS",
+				"Test",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanicsEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanicsEditor",
+				"Mac",
+				"Debug",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanicsEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanicsEditor",
+				"Mac",
+				"Debug",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanicsEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanicsEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanicsEditor",
+				"Mac",
+				"Debug",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanicsEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanicsEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanicsEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanicsEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanicsEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanicsEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanicsEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanicsEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanicsEditor",
+				"Mac",
+				"Development",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanicsEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanicsEditor",
+				"Mac",
+				"Development",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BOTWMechanicsEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BOTWMechanicsEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BOTWMechanicsEditor",
+				"Mac",
+				"Development",
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		}
+	]
+}

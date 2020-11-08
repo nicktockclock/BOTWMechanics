@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/Content": true,
+		"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/.vscode": true,
+		"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/Intermediate": true
+	}
+}

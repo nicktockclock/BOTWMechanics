@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "BOTWMechanics (Debug)",
+			"request": "launch",
+			"preLaunchTask": "BOTWMechanics Mac Debug Build",
+			"program": "/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/Binaries/Mac/UE4-Mac-Debug.app/Contents/MacOS/UE4-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "BOTWMechanics (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "BOTWMechanics Mac DebugGame Build",
+			"program": "/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/Binaries/Mac/UE4-Mac-DebugGame.app/Contents/MacOS/UE4-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "BOTWMechanics (Development)",
+			"request": "launch",
+			"preLaunchTask": "BOTWMechanics Mac Development Build",
+			"program": "/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/Binaries/Mac/UE4.app/Contents/MacOS/UE4",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "BOTWMechanics (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "BOTWMechanics Mac Shipping Build",
+			"program": "/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/Binaries/Mac/UE4-Mac-Shipping.app/Contents/MacOS/UE4-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "BOTWMechanics (Test)",
+			"request": "launch",
+			"preLaunchTask": "BOTWMechanics Mac Test Build",
+			"program": "/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/Binaries/Mac/UE4-Mac-Test.app/Contents/MacOS/UE4-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "BOTWMechanicsEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "BOTWMechanicsEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.25/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "BOTWMechanicsEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "BOTWMechanicsEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.25/Engine/Binaries/Mac/UE4Editor-Mac-DebugGame.app/Contents/MacOS/UE4Editor-Mac-DebugGame",
+			"args": [
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "BOTWMechanicsEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "BOTWMechanicsEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.25/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/Users/nicktockclock/Documents/Unreal Projects/BOTWMechanics/BOTWMechanics.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/Users/Shared/Epic Games/UE_4.25"
+		}
+	]
+}
