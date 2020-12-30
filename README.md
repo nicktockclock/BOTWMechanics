@@ -10,4 +10,4 @@ I'll try and add examples of each of the powers as they are added. Below is the 
  
 ![Demo](Demo/BOTW_Ice.gif)
 
-Next I think will be Magnesis, so watch this space.
+Next I think will be Magnesis, so watch this space!
